@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(90, 226, 174); /* Um azul clarinho */
+    font-family: "Berkshire Swash", serif;
+}
+
+.container {
+    max-width: 800px;
+    background-color:rgb(230, 162, 74);
+    padding: 30px;
+    border-radius: 0px;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color:rgb(114, 231, 212); /* Azul mais escuro */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para paciente urgente */
+.urgent-item {
+    background-color:rgb(250, 212, 44); /* Amarelo clarinho */
+    font-weight: bold;
+    color:rgb(48, 43, 29); /* Texto amarelo escuro */
+    border: 1px solidrgb(205, 255, 186);
+}
+
+/* Estilo para o paciente em atendimento */
+#currentPatientDisplay {
+    padding: 15px;
+    border: 2px solid #28a745; /* Borda verde */
+    background-color: #e6ffe6; /* Fundo verde claro */
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #218838; /* Texto verde escuro */
+}
+
+#currentPatientImg {
+    border: 2px solid #28a745; /* Borda verde para a imagem */
+    border-radius: 5px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #dee2e6;
+}
+
+.list-group-item img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 10px;
+}
